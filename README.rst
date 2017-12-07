@@ -17,15 +17,17 @@ lendee to guage their own capability in repaying the loan, and to help them
 decide if the loan is right for them.
 
 Those columns are:
--   annual_inc
--   dti
--   revol_util
+
+-   **annual_inc**: annual income of the lendee
+-   **dti**: debt-to-income ratio, which is the ratio of monthly consumer debt
+    payments (excluding mortgages) to monthly income
+-   **revol_util**: credit card utilization as a fraction of available limit
 -   **int_rate**: interest rate of the loan (in percent)
--   loan_amnt
+-   **loan_amnt**: amount of the loan in dollars
 -   **term**: the length of time for the loan (either 3- or 5-year terms)
--   purpose
--   loan_status
--   total_rec_prncp
+-   **purpose**: one of 14 categories from the lendee
+-   **loan_status**: either "Fully Paid" or "Charged Off" (defaulted)
+-   **total_rec_prncp**: value of the principle repaid
 
 .. _`Lending Club`: https://www.lendingclub.com/info/download-data.action
 .. _`Fast Forward Labs`: http://www.fastforwardlabs.com
